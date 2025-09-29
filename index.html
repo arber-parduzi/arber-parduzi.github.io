@@ -1,9 +1,268 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Arber Parduzi </title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arber Parduzi - CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
 <body>
-  <p>test </p>
+    <div class="container">
+        <header>
+            <div class="profile-container">
+                <div class="profile-img has-image">
+        <span>AP</span>
+        <img src="./arber_profile.png" alt="Profile Image">
+    </div>
+                <div class="header-text">
+                    <h1>Arber Parduzi</h1>
+                    <p class="title">Computer Sciences Lecturer at AAB College</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>arber.parduzi@aab-edu.net</span>
+                        </div>
+                        <!-- <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+383</span>
+                        </div> -->
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>AAB College, Prishtina, Republic of Kosovo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <nav>
+            <div class="nav-container">
+                <a href="#about" class="nav-item active"><i class="fas fa-user"></i> About</a>
+                <a href="#education" class="nav-item"><i class="fas fa-graduation-cap"></i> Education</a>
+                <a href="#experience" class="nav-item"><i class="fas fa-briefcase"></i> Experience</a>
+                <a href="#skills" class="nav-item"><i class="fas fa-tools"></i> Skills</a>
+                <a href="#publications" class="nav-item"><i class="fas fa-book"></i> Publications</a>
+                <a href="#languages" class="nav-item"><i class="fas fa-comments"></i> Languages</a>
+            </div>
+        </nav>
+        
+        <div class="main-content">
+            <!-- All sections in a single column -->
+            <section id="about">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <div class="about-text">
+                    <p>I am a Lecturer of Computer Sciences with years of experience as part of multi-national projects, 
+                        programming and lecturing. My expertise lies in programming, project management and IoT. 
+                        I am passionate about working in the field, helping make an impact on guiding the next generations 
+                        of developers and computer scientists.</p>
+
+                    <!-- <p>My research focuses on developing efficient algorithms for large-scale data processing and 
+                        applying machine learning techniques to solve real-world problems in healthcare, climate science, 
+                        and cybersecurity. I have published over 30 peer-reviewed papers and secured multiple research grants 
+                        from prestigious funding agencies.</p> -->
+
+                    <!-- <p>I am dedicated to teaching and have lectured several courses in 
+                        artificial intelligence and data science. I believe in creating an inclusive learning environment 
+                        that fosters critical thinking and innovation.</p> -->
+                </div>
+            </section>
+            
+            <section id="education">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">PhD(c) in Computer Engineering</div>
+                        <div class="item-date">Ongoing</div>
+                    </div>
+                    <div class="item-subtitle">Ss. Cyril and Methodius, Skopje</div>
+                    
+                </div>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">MSc in Computer Sciences and Software Engineering</div>
+                        <div class="item-date">2022</div>
+                    </div>
+                    <div class="item-subtitle">AAB College</div>
+                    
+                </div>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">BSc in Computer Sciences and Software Engineering</div>
+                        <div class="item-date">2016</div>
+                    </div>
+                    <div class="item-subtitle">AAB College</div>
+                    
+                </div>
+            </section>
+            
+            <section id="experience">
+                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">Computer Sciences Lecturer</div>
+                        <div class="item-date">2022 - Present</div>
+                    </div>
+                    <div class="item-subtitle">Department of Computer Sciences, AAB College</div>
+                    <p class="item-description">Teaching undergraduate courses in:
+                    Computer Network Security, Object Oriented Programming, 
+                        Data Structures and Algorithms and Internet of Things(IoT).</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">Teaching Assistant</div>
+                        <div class="item-date">2023 - 2024</div>
+                    </div>
+                    <div class="item-subtitle">Informatics Engineering, University "Isa Boletini", Mitrovica</div>
+                    <p class="item-description">Developed and curated lab content for the following subjects: Computer Science Fundamentals and Big Data.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="item-header">
+                        <div class="item-title">Programming Instructor</div>
+                        <div class="item-date">2020 - 2022</div>
+                    </div>
+                    <div class="item-subtitle">ICT for Kosovo's Growth, WEglobal, PrishtinaREA</div>
+                    <p class="item-description">Prepare content and train students in developing Java applications using Core and Advanced Java, Swing/JavaFX, Android Development, Web Development with Spring Boot, Databases such as MySQL, SQLite, H2, MongoDB and Firebase Cloud Services</p>
+                </div>
+            </section>
+            
+            <section id="skills">
+                <h2><i class="fas fa-tools"></i> Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-tag">Java</div>
+                    <div class="skill-tag">C#</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">LaTeX</div>
+                    <div class="skill-tag">TensorFlow</div>
+                    <div class="skill-tag">PyTorch</div>
+                    <div class="skill-tag">MySQL</div>
+                    <div class="skill-tag">JS</div>
+                    <div class="skill-tag">Cloud Services</div>
+                    <div class="skill-tag">Cloud Computing</div>
+                    <div class="skill-tag">IoT</div>
+                    <div class="skill-tag">Data Visualization</div>
+                    
+                </div>
+            </section>
+            
+            <section id="publications">
+                <h2><i class="fas fa-book"></i> Publications</h2>
+                
+                <div class="publication-item">
+                    <div class="publication-authors">Mollakuqe E, Parduzi A, Rexhepi S et al.</div>
+                    <div class="publication-title">"Applications of Homomorphic Encryption in Secure Computation"</div>
+                    <div class="publication-details">Open
+Research Europe, https://doi.org /10.12688/openreseurope.18052.1</div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-authors">Jakupi S, Mollakuqe E and Parduzi A.</div>
+                    <div class="publication-title">"Optimizing Network Performance: A Comparative Analysis of IPv4 and IPv6
+Protocols in the Context of Information Security"</div>
+                    <div class="publication-details">https://csm.finki.ukim.mk</div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-authors">Mollakuqe E, Santuri Fishekqiu N, Jakupi S, and Parduzi A.</div>
+                    <div class="publication-title">"Analysis of Cyber Attacks based on the Principles of
+Pareto Analysis - case study: cyberattacks in five European Countries ranked by population: Russia, Germany, United
+Kingdom, France and Italy"</div>
+                    <div class="publication-details">Scandinavian Journal of Information Systems, http://sjis.scandinavianiris.
+org/index.php/sjis/index</div>
+                </div>
+            </section>
+            
+            <section id="languages">
+                <h2><i class="fas fa-comments"></i> Languages</h2>
+                <div class="languages-container">
+                    <div class="language-item">
+                        <div class="language-name">
+                            <i class="fas fa-flag"></i>
+                            <span>Albanian</span>
+                        </div>
+                        <div class="language-level">Native</div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                        </div>
+                    </div>
+
+                    <div class="language-item">
+                        <div class="language-name">
+                            <i class="fas fa-flag-usa"></i>
+                            <span>English</span>
+                        </div>
+                        <div class="language-level">Fluent</div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">
+                            <i class="fas fa-flag"></i>
+                            <span>German</span>
+                        </div>
+                        <div class="language-level">Intermediate</div>
+                        <div class="language-proficiency">
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot filled"></div>
+                            <div class="proficiency-dot"></div>
+                            <div class="proficiency-dot"></div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        </div>
+        
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/arberparduzi/" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                   
+                    <a href="https://www.researchgate.net/profile/Arber-Parduzi" class="social-link">
+                        <i class="fab fa-researchgate">
+                            
+                        </i>
+                    </a>
+                    <!-- <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a> -->
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Arber Parduzi</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        // Simple animation for the proficiency dots
+        document.addEventListener('DOMContentLoaded', function() {
+            const dots = document.querySelectorAll('.proficiency-dot.filled');
+            dots.forEach((dot, index) => {
+                dot.style.animation = `fadeIn 0.5s ${index * 0.1}s forwards`;
+            });
+            
+            // Navigation active state
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
 </body>
 </html>
